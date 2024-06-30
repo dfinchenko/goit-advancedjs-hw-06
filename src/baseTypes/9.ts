@@ -13,24 +13,22 @@ type PageType = {
   };
 };
 
-
-
 const page1: PageType = {
-  title: 'The awesome page',
+  title: "The awesome page",
   likes: 100,
-  accounts: ['Max', 'Anton', 'Nikita'],
-  status: 'open',
+  accounts: ["Max", "Anton", "Nikita"],
+  status: "open",
   details: {
-    createAt: new Date('2021-01-01'),
-    updateAt: new Date('2021-05-01'),
-  }
-}
+    createAt: new Date("2021-01-01"),
+    updateAt: new Date("2021-05-01"),
+  },
+};
 
 const page2: PageType = {
-  title: 'Python or Js',
+  title: "Python or Js",
   likes: 5,
-  accounts: ['Alex'],
-  status: 'close',
-}
+  accounts: ["Alex"],
+  status: "close",
+};
 
 export {};

@@ -7,9 +7,7 @@ interface Props {
 }
 
 class Component<T> {
-  constructor (public props:T) {
-
-  }
+  constructor(public props: T) {}
 }
 
 class Page extends Component<Props> {
